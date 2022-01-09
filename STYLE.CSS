@@ -105,3 +105,27 @@ body {
   width: 728px;
   background-color: tomato;
 }
+
+/* nav */
+.nav{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(7, 148, 243);
+    width: 1024px;
+    height: 78px;
+}
+.nav a{
+
+    color: white;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 27px;
+    border-radius:9px;
+    background-color: rgb(5, 45, 119);
+}
+.nav a:hover{
+    color: black;
+    background-color: rgb(9, 25, 247);
+}
